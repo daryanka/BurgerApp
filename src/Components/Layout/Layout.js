@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Aux from "../../hoc/Aux";
+import Aux from "../../Auxs";
 import Classes from "./layout.css";
 import Toolbar from "../Navigation/Toolbar/Toolbar";
 import SideDraw from "../Navigation/NavigationItems/SideDraw/SideDraw";

@@ -14,7 +14,9 @@ const Burger = props => {
     }, []);
 
   if (transformedIngredients.length === 0) {
-    transformedIngredients = <p>Please Start adding ingridents.</p>;
+    transformedIngredients = (
+      <p style={{ textAlign: "center" }}>Please Start adding ingridents.</p>
+    );
   }
 
   return (
